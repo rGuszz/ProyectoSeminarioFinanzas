@@ -1285,7 +1285,7 @@ def contenido_5():
           df_black.columns = ["ETF's","Pesos Óptimos"]
           st.dataframe(df_black,use_container_width=True, hide_index=True)
           fig = grafica_dona(df_black)
-          st.plotly_chart(fig, key="1")  
+          st.plotly_chart(fig, key="9383")  
     with col2:
           conte2 = st.container(border=True)
           with conte2:
