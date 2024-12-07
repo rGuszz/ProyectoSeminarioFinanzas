@@ -1,0 +1,8 @@
+pandas
+yfinance
+numpy
+plotly
+fc
+datetime
+scipy
+matplotlib
