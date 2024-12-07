@@ -852,31 +852,31 @@ def contenido_4():
               st.markdown("<div style='margin: 52px 0;'></div>",unsafe_allow_html=True)
               c1, c2, c3 = st.columns(3)
               with c1:
-                  st.metric("Rendimientos del 2021 al 2022",f"{metricas_benchmarks('SPY')[0]:.4%}")
+                  st.metric("Rendimientos del 2021 al 2022",f"{metricas_benchmarks("SPY")[0]:.4%}")
               with c2:
-                  st.metric("Rendimientos del 2022 al 2023",f"{metricas_benchmarks('SPY')[1]:.4%}")
+                  st.metric("Rendimientos del 2022 al 2023",f"{metricas_benchmarks("SPY")[1]:.4%}")
               with c3:
-                  st.metric("Rendimientos del 2023 al 2024",f"{metricas_benchmarks('SPY')[2]:.4%}")
+                  st.metric("Rendimientos del 2023 al 2024",f"{metricas_benchmarks("SPY")[2]:.4%}")
               c4, c5 = st.columns(2)
               with c4:
                   st.metric("Rendimiento acumulado del 2021 al 2023",f"{metricas_benchmarks("SPY")[3]:.4%}")
               with c5:
-                  st.metric("Sesgo del 2021 al 2023",f"{metricas_benchmarks('SPY')[4]:.4}")
+                  st.metric("Sesgo del 2021 al 2023",f"{metricas_benchmarks("SPY")[4]:.4}")
               c6, c7 = st.columns(2)
               with c6:
-                  st.metric("Kurtosis del 2021 al 2023",f"{metricas_benchmarks('SPY')[5]:.4}")
+                  st.metric("Kurtosis del 2021 al 2023",f"{metricas_benchmarks("SPY")[5]:.4}")
               with c7:
-                  st.metric("VaR del 2021 al 2023",f"{metricas_benchmarks('SPY')[6]:.4}")
+                  st.metric("VaR del 2021 al 2023",f"{metricas_benchmarks("SPY")[6]:.4}")
               c8, c9 = st.columns(2)
               with c8:
-                  st.metric("CVaR del 2021 al 2023",f"{metricas_benchmarks('SPY')[7]:.4}")
+                  st.metric("CVaR del 2021 al 2023",f"{metricas_benchmarks("SPY")[7]:.4}")
               with c9:
-                  st.metric("Sharpe Ratio del 2021 al 2023",f"{metricas_benchmarks('SPY')[8]:.4}")
+                  st.metric("Sharpe Ratio del 2021 al 2023",f"{metricas_benchmarks("SPY")[8]:.4}")
               c10, c11 = st.columns(2)
               with c10:
-                  st.metric("Sortino Ratio del 2021 al 2023",f"{metricas_benchmarks('SPY')[9]:.4}")
+                  st.metric("Sortino Ratio del 2021 al 2023",f"{metricas_benchmarks("SPY")[9]:.4}")
               with c11:
-                  st.metric("Max Drawdown del 2021 al 2023",f"{metricas_benchmarks('SPY')[10]:.4}")
+                  st.metric("Max Drawdown del 2021 al 2023",f"{metricas_benchmarks("SPY")[10]:.4}")
           with col2:
             cont2 = st.container(border=True,height=600)
             with cont2:
